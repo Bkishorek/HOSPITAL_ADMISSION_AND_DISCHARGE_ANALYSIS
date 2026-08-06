@@ -5,9 +5,9 @@ This project analyzes hospital admission and discharge data using MySQL to deriv
 
 ## Objectives
 - Calculate total admissions and discharges
-- Identify 30-day readmissions
 - Analyze Average Length of Stay (ALOS)
 - Calculate Average Daily Discharge
+- - Identify 30-day readmissions
 - Study age-wise and gender-wise admissions
 - Analyze HTN and DM among readmitted patients
 - Generate SQL views for reporting
@@ -32,14 +32,6 @@ This project analyzes hospital admission and discharge data using MySQL to deriv
 - Date Functions
 
 ## Key Insights
-- Adult patients accounted for the majority of admissions.
-- Average Length of Stay was approximately 6 days.
-- Readmission within 30 days was around 4–5%.
-- Most discharges occurred during weekdays.
-- Hypertension was more common than diabetes among readmitted patients.
+- Analyzed 14,620 hospital admission records Cleaned data, removed duplicates. Evaluated patient admissions, discharges and length of stay metrics. Identified that adult and male patients accounted for the majority of admissions,with an average of 14 daily discharges and peak discharge activity occurring in mid-week.
 
-## Dashboard
-(Add Power BI dashboard screenshots here.)
-
-## Author
-Kishore
+  THANK YOU
