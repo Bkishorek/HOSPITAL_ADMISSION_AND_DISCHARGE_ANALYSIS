@@ -10,7 +10,7 @@ The objective is to convert raw hospital data into meaningful healthcare insight
 
 ---
 
-## 🎯 Objectives
+ Objectives
 
 - Analyze total hospital admissions and patient outcomes.
 - Calculate average length of hospital stay.
@@ -24,9 +24,7 @@ The objective is to convert raw hospital data into meaningful healthcare insight
 - Analyze readmissions among patients with hypertension and diabetes.
 - Develop an interactive Power BI dashboard for hospital data analysis.
 
----
-
-## 📊 Dataset
+Dataset
 
 The project uses a hospital admission dataset containing patient-level information related to:
 
@@ -45,22 +43,20 @@ The project uses a hospital admission dataset containing patient-level informati
 
 ### Dataset Summary
 
-| Metric | Value |
-|---|---:|
-| Raw admission records | 14,620 |
-| Records after duplicate removal | 13,339 |
-| Total discharges | 12,008 |
-| Average length of stay | 6 days |
-| Average daily discharge | 16 |
-| 30-day readmissions | 621 |
-| 30-day readmission rate | 4.62% |
+| Metric |                                    | Value |
 
----
+| Raw admission records                       | 14,620 |
+| Records after duplicate removal             | 13,339 |
+| Total discharges                            | 12,008 |
+| Average length of stay                      | 6 days |
+| Average daily discharge                     | 16     |
+| 30-day readmissions                         | 621    |
+| 30-day readmission rate                     | 4.62%  |
 
-## 🛠️ Tools & Technologies
 
-### SQL / MySQL
-- MySQL
+Tools used
+
+SQL / MySQL
 - Data Cleaning
 - Data Transformation
 - CTEs
@@ -71,7 +67,7 @@ The project uses a hospital admission dataset containing patient-level informati
 - Aggregation
 - Views
 
-### Power BI
+Power BI
 - Power Query
 - Data Modeling
 - DAX
@@ -82,15 +78,12 @@ The project uses a hospital admission dataset containing patient-level informati
 - Bar Charts
 - Interactive Dashboard
 
-### Other Tools
+Other Tools
 - GitHub
 - CSV Dataset
+  
+Project Workflow
 
----
-
-## 🔄 Project Workflow
-
-```text
 Raw Hospital Dataset
         ↓
 Data Inspection
@@ -110,3 +103,11 @@ Readmission Analysis
 Power BI Visualization
         ↓
 Interactive Hospital Dashboard
+
+conclusion(insights)
+
+* Analyzed **13,339 cleaned hospital admission records** to evaluate patient outcomes, length of stay, discharge patterns, ICU utilization, and 30-day readmissions using **MySQL and Power BI**.
+* Found that **90% of records resulted in discharge**, with an average hospital stay of **6 days** and an average daily discharge of **16 patients**.
+* Identified a clear weekday discharge pattern, with **Wednesday recording the highest discharges (1,895)** and **Sunday the lowest (1,294)**, while adults and male patients represented the largest patient groups.
+* Identified **621 30-day readmissions (4.62%)** and found notable readmission counts among patients with **HTN only (167), DM only (74), and both HTN & DM (161)**.
+
