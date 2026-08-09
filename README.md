@@ -53,6 +53,36 @@ The project uses a hospital admission dataset containing patient-level informati
 | 30-day readmissions                         | 621    |
 | 30-day readmission rate                     | 4.62%  |
 
+Key insights
+
+* Analyzed **13,339 cleaned hospital admission records** to evaluate patient outcomes, length of stay, discharge patterns, ICU utilization, and 30-day readmissions using **MySQL and Power BI**.
+* Found that **90% of records resulted in discharge**, with an average hospital stay of **6 days** and an average daily discharge of **16 patients**.
+* Identified a clear weekday discharge pattern, with **Wednesday recording the highest discharges (1,895)** and **Sunday the lowest (1,294)**, while adults and male patients represented the largest patient groups.
+* Identified **621 30-day readmissions (4.62%)** and found notable readmission counts among patients with **HTN only (167), DM only (74), and both HTN & DM (161)**.
+
+
+  
+Project Workflow
+
+Raw Hospital Dataset
+        ↓
+Data Inspection
+        ↓
+Data Type Checking
+        ↓
+Date Cleaning & Standardization
+        ↓
+Duplicate Detection & Removal
+        ↓
+Creation of Cleaned SQL Views
+        ↓
+Healthcare KPI Calculation
+        ↓
+Readmission Analysis
+        ↓
+Power BI Visualization
+        ↓
+Interactive Hospital Dashboard
 
 Tools used
 
@@ -78,36 +108,5 @@ Power BI
 - Bar Charts
 - Interactive Dashboard
 
-Other Tools
-- GitHub
-- CSV Dataset
-  
-Project Workflow
 
-Raw Hospital Dataset
-        ↓
-Data Inspection
-        ↓
-Data Type Checking
-        ↓
-Date Cleaning & Standardization
-        ↓
-Duplicate Detection & Removal
-        ↓
-Creation of Cleaned SQL Views
-        ↓
-Healthcare KPI Calculation
-        ↓
-Readmission Analysis
-        ↓
-Power BI Visualization
-        ↓
-Interactive Hospital Dashboard
-
-conclusion(insights)
-
-* Analyzed **13,339 cleaned hospital admission records** to evaluate patient outcomes, length of stay, discharge patterns, ICU utilization, and 30-day readmissions using **MySQL and Power BI**.
-* Found that **90% of records resulted in discharge**, with an average hospital stay of **6 days** and an average daily discharge of **16 patients**.
-* Identified a clear weekday discharge pattern, with **Wednesday recording the highest discharges (1,895)** and **Sunday the lowest (1,294)**, while adults and male patients represented the largest patient groups.
-* Identified **621 30-day readmissions (4.62%)** and found notable readmission counts among patients with **HTN only (167), DM only (74), and both HTN & DM (161)**.
 
